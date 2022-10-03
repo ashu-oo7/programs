@@ -3,7 +3,7 @@
 using namespace std;
 int c0,c1;
 vector<bool>visited;
-void dfs(vector<int>graph[],int node,int color){
+void dfs(vector<int>*graph ,int node,int color){
 	visited[node] = true;
 	int ncolor;
 	if(color == 0){
